@@ -1,0 +1,1028 @@
+.11:20:25.392 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 3260 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.11:20:25.394 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.11:20:25.500 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f747d8e: startup date [Fri Jun 02 11:20:25 PDT 2017]; root of context hierarchy 
+.11:20:25.941 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.11:20:28.165 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.11:20:28.195 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.11:20:28.195 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.11:20:28.456 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.11:20:28.460 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.11:20:28.460 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2960 ms 
+.11:20:28.908 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.11:20:28.909 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.11:20:28.909 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.11:20:28.909 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.11:20:28.910 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.11:20:28.911 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.11:20:30.128 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.11:20:30.205 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.11:20:30.450 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.11:20:30.452 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.11:20:30.454 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.11:20:30.533 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.11:20:30.718 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.11:20:31.365 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.11:20:31.798 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.11:20:32.127 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.11:20:32.711 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.11:20:32.712 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.11:20:32.906 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$d93a36b6 : configure 
+.11:20:32.908 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.11:20:33.014 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17ca0d5c, org.springframework.security.web.context.SecurityContextPersistenceFilter@749240b9, org.springframework.security.web.header.HeaderWriterFilter@5354f915, org.springframework.security.web.csrf.CsrfFilter@56b62e1, org.springframework.security.web.authentication.logout.LogoutFilter@3861ec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16815a37, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53a212f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f2f6df8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c0fc81, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@717f6c7f, org.springframework.security.web.session.SessionManagementFilter@25978240, org.springframework.security.web.access.ExceptionTranslationFilter@3ee499f5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30e283a5] 
+.11:20:33.243 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f747d8e: startup date [Fri Jun 02 11:20:25 PDT 2017]; root of context hierarchy 
+.11:20:33.333 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.11:20:33.334 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.11:20:33.335 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.11:20:33.335 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.11:20:33.337 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.11:20:33.338 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.11:20:33.339 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.11:20:33.340 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.11:20:33.407 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.11:20:33.407 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.11:20:33.504 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.11:20:34.003 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.11:20:34.044 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.11:20:34.081 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.11:20:34.113 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.11:20:34.160 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.11:20:34.211 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.11:20:34.225 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 9.116 seconds (JVM running for 9.882) 
+.11:23:11.661 [Thread-7] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f747d8e: startup date [Fri Jun 02 11:20:25 PDT 2017]; root of context hierarchy 
+.11:23:11.673 [Thread-7] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.11:23:11.679 [Thread-7] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.11:23:12.108 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 3260 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.11:23:12.109 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.11:23:12.113 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2526b549: startup date [Fri Jun 02 11:23:12 PDT 2017]; root of context hierarchy 
+.11:23:12.683 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.11:23:12.684 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.11:23:12.684 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.11:23:12.757 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.11:23:12.759 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.11:23:12.759 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 647 ms 
+.11:23:12.875 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.11:23:12.875 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.11:23:12.875 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.11:23:12.875 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.11:23:12.876 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.11:23:12.876 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.11:23:13.035 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.11:23:13.035 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.11:23:13.046 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.11:23:13.082 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.11:23:13.265 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.11:23:13.396 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.11:23:14.658 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 3628 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.11:23:14.660 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.11:23:14.720 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41b6daf3: startup date [Fri Jun 02 11:23:14 PDT 2017]; root of context hierarchy 
+.11:23:14.993 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.11:23:16.793 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.11:23:16.805 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.11:23:16.806 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.11:23:17.009 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.11:23:17.014 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.11:23:17.014 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2294 ms 
+.11:23:17.276 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.11:23:17.276 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.11:23:17.276 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.11:23:17.276 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.11:23:17.277 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.11:23:17.278 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.11:23:17.950 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.11:23:17.966 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.11:23:18.021 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.11:23:18.023 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.11:23:18.024 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.11:23:18.061 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.11:23:18.180 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.11:23:18.532 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.11:23:18.782 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.11:23:19.117 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.11:23:19.652 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.11:23:19.652 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.11:23:19.847 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$9871762d : configure 
+.11:23:19.850 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.11:23:19.978 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d2d2983, org.springframework.security.web.context.SecurityContextPersistenceFilter@2024b18c, org.springframework.security.web.header.HeaderWriterFilter@2e549235, org.springframework.security.web.csrf.CsrfFilter@3bceb75, org.springframework.security.web.authentication.logout.LogoutFilter@17df50f7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@760d27de, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@28c2aa1e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3382358b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d95e576, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9a2895e, org.springframework.security.web.session.SessionManagementFilter@7c6dc011, org.springframework.security.web.access.ExceptionTranslationFilter@b78a908, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bc2954e] 
+.11:23:20.135 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@41b6daf3: startup date [Fri Jun 02 11:23:14 PDT 2017]; root of context hierarchy 
+.11:23:20.214 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.11:23:20.216 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.11:23:20.216 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.11:23:20.216 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.11:23:20.218 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.11:23:20.219 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.11:23:20.220 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.11:23:20.220 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.11:23:20.288 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.11:23:20.288 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.11:23:20.356 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.11:23:20.676 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.11:23:20.731 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.11:23:20.749 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.11:23:20.762 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.11:23:20.772 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.11:23:20.800 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.11:23:20.805 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 6.383 seconds (JVM running for 7.0) 
+.13:03:25.554 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 5196 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:03:25.558 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:03:25.629 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f01cbba: startup date [Fri Jun 02 13:03:25 PDT 2017]; root of context hierarchy 
+.13:03:25.956 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:03:28.101 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:03:28.114 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:03:28.116 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:03:28.558 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:03:28.563 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:03:28.563 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2934 ms 
+.13:03:28.892 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:03:28.893 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:03:28.893 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:03:28.893 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:03:28.894 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:03:28.894 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:03:31.802 [restartedMain] [user="" token=""] ERROR o.a.tomcat.jdbc.pool.ConnectionPool - Unable to create initial connections of pool. 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$e16dfd83.CGLIB$jpaVendorAdapter$4(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$e16dfd83$$FastClassBySpringCGLIB$$805db6d1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$e16dfd83.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 90 common frames omitted
+.13:03:31.813 [restartedMain] [user="" token=""] WARN  o.s.b.a.orm.jpa.DatabaseLookup - Unable to determine jdbc url from datasource 
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$e16dfd83.CGLIB$jpaVendorAdapter$4(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$e16dfd83$$FastClassBySpringCGLIB$$805db6d1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$e16dfd83.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 66 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 67 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 90 common frames omitted
+.13:03:31.880 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:03:31.909 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:03:32.022 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:03:32.024 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:03:32.027 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:03:32.080 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:03:34.213 [restartedMain] [user="" token=""] ERROR o.a.tomcat.jdbc.pool.ConnectionPool - Unable to create initial connections of pool. 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 64 common frames omitted
+.13:03:34.219 [restartedMain] [user="" token=""] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. 
+.13:03:34.243 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:03:34.267 [restartedMain] [user="" token=""] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null 
+.13:03:34.708 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:03:36.720 [restartedMain] [user="" token=""] ERROR o.a.tomcat.jdbc.pool.ConnectionPool - Unable to create initial connections of pool. 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.prepare(TargetDatabaseImpl.java:38)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.doMigration(SchemaMigratorImpl.java:57)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:134)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:101)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:472)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:444)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 57 common frames omitted
+.13:03:36.730 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory 
+.13:03:36.740 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.13:03:36.789 [restartedMain] [user="" token=""] WARN  o.s.boot.SpringApplication - Error handling failed (Error creating bean with name 'delegatingApplicationListener' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'metaDataSourceAdvisor': Cannot resolve reference to bean 'methodSecurityMetadataSource' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available) 
+.13:03:36.792 [restartedMain] [user="" token=""] ERROR o.s.boot.SpringApplication - Application startup failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.persistenceException(EntityManagerFactoryBuilderImpl.java:954)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:882)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Unable to open JDBC connection for schema management target
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.prepare(TargetDatabaseImpl.java:42)
+	at org.hibernate.tool.schema.internal.SchemaMigratorImpl.doMigration(SchemaMigratorImpl.java:57)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:134)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:101)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:472)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:444)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
+	... 27 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.tool.schema.internal.TargetDatabaseImpl.prepare(TargetDatabaseImpl.java:38)
+	... 33 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 57 common frames omitted
+.13:04:06.181 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 1356 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:04:06.183 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:04:06.263 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25da45d8: startup date [Fri Jun 02 13:04:06 PDT 2017]; root of context hierarchy 
+.13:04:06.701 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:04:08.805 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:04:08.820 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:04:08.821 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:04:09.082 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:04:09.087 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:04:09.088 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2825 ms 
+.13:04:09.380 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:04:09.380 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:04:09.381 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:04:09.381 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:04:09.382 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:04:09.382 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:04:10.223 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:04:10.257 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:04:10.342 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:04:10.343 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:04:10.345 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:04:10.402 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:04:10.547 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:04:11.042 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:04:11.406 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:04:11.439 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kawarides.admin.service.CategoryService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+.13:04:11.439 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.13:04:11.452 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.13:04:11.461 [restartedMain] [user="" token=""] WARN  o.s.boot.SpringApplication - Error handling failed (Error creating bean with name 'delegatingApplicationListener' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'metaDataSourceAdvisor': Cannot resolve reference to bean 'methodSecurityMetadataSource' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available) 
+.13:04:11.656 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.kawarides.admin.controller.api.CategoriesController required a bean of type 'com.kawarides.admin.service.CategoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.kawarides.admin.service.CategoryService' in your configuration.
+ 
+.13:32:48.035 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6240 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:32:48.037 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:32:48.099 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f01cbba: startup date [Fri Jun 02 13:32:48 PDT 2017]; root of context hierarchy 
+.13:32:48.377 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:32:50.139 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:32:50.151 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:32:50.151 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:32:50.359 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:32:50.363 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:32:50.364 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2265 ms 
+.13:32:50.630 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:32:50.630 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:32:50.631 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:32:50.631 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:32:50.632 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:32:50.632 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:32:51.342 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:32:51.359 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:32:51.417 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:32:51.418 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:32:51.419 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:32:51.458 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:32:51.567 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:32:52.008 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:32:52.189 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:32:52.520 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:32:53.131 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:32:53.131 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:32:53.326 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$614c6b73 : configure 
+.13:32:53.328 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.13:32:53.440 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c48770f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fa09071, org.springframework.security.web.header.HeaderWriterFilter@4391fddd, org.springframework.security.web.csrf.CsrfFilter@c94c670, org.springframework.security.web.authentication.logout.LogoutFilter@158501a0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d842da7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e871059, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e0fec00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46c1da13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41afd1df, org.springframework.security.web.session.SessionManagementFilter@3a42c552, org.springframework.security.web.access.ExceptionTranslationFilter@32d50290, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21788673] 
+.13:32:53.578 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f01cbba: startup date [Fri Jun 02 13:32:48 PDT 2017]; root of context hierarchy 
+.13:32:53.673 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.13:32:53.674 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:32:53.675 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.13:32:53.677 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.13:32:53.678 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.13:32:53.680 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.13:32:53.681 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.13:32:53.686 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.13:32:53.687 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.13:32:53.689 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.13:32:53.689 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.13:32:53.749 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:32:53.749 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:32:53.808 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:32:54.176 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.13:32:54.256 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.13:32:54.296 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.13:32:54.309 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.13:32:54.377 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.13:32:54.409 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.13:32:54.416 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 6.607 seconds (JVM running for 7.499) 
+.15:55:49.012 [Thread-7] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f01cbba: startup date [Fri Jun 02 13:32:48 PDT 2017]; root of context hierarchy 
+.15:55:49.036 [Thread-7] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.15:55:49.039 [Thread-7] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.15:55:49.506 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6240 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.15:55:49.506 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.15:55:49.511 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7354ce58: startup date [Fri Jun 02 15:55:49 PDT 2017]; root of context hierarchy 
+.15:55:50.388 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.15:55:50.389 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.15:55:50.389 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.15:55:50.525 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.15:55:50.532 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.15:55:50.539 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1028 ms 
+.15:55:50.672 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.15:55:50.672 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.15:55:50.672 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.15:55:50.672 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.15:55:50.672 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.15:55:50.672 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.15:55:50.888 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.15:55:50.888 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.15:55:50.900 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.15:55:50.960 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.15:55:51.232 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.15:55:51.518 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.15:55:51.918 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.15:55:51.918 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.15:55:52.012 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$614c6b73 : configure 
+.15:55:52.012 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.15:55:52.055 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@701b3d19, org.springframework.security.web.context.SecurityContextPersistenceFilter@6af130cb, org.springframework.security.web.header.HeaderWriterFilter@5f4a3e87, org.springframework.security.web.csrf.CsrfFilter@62401554, org.springframework.security.web.authentication.logout.LogoutFilter@5111c164, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6f9a9b5d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@a714688, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ceaa6d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@125a1dcc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e3e1b32, org.springframework.security.web.session.SessionManagementFilter@8f97e35, org.springframework.security.web.access.ExceptionTranslationFilter@35186eb3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6a349beb] 
+.15:55:52.119 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7354ce58: startup date [Fri Jun 02 15:55:49 PDT 2017]; root of context hierarchy 
+.15:55:52.142 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.15:55:52.142 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.15:55:52.142 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.15:55:52.144 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.15:55:52.144 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.15:55:52.144 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.15:55:52.144 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.15:55:52.145 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.15:55:52.146 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.15:55:52.147 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.15:55:52.147 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.15:55:52.235 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:55:52.235 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:55:52.268 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:55:52.453 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.15:55:52.506 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.15:55:52.514 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.15:55:52.514 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.15:55:52.515 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.15:55:52.519 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.15:55:52.521 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 3.142 seconds (JVM running for 8585.608) 
+.15:58:33.110 [Thread-11] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7354ce58: startup date [Fri Jun 02 15:55:49 PDT 2017]; root of context hierarchy 
+.15:58:33.112 [Thread-11] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.15:58:33.113 [Thread-11] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.15:58:33.417 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6240 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.15:58:33.417 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.15:58:33.419 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e9f9040: startup date [Fri Jun 02 15:58:33 PDT 2017]; root of context hierarchy 
+.15:58:34.028 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.15:58:34.029 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.15:58:34.029 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.15:58:34.100 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.15:58:34.102 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.15:58:34.103 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 684 ms 
+.15:58:34.193 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.15:58:34.194 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.15:58:34.194 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.15:58:34.195 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.15:58:34.197 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.15:58:34.198 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.15:58:34.360 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.15:58:34.360 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.15:58:34.371 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.15:58:34.424 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.15:58:34.426 [restartedMain] [user="" token=""] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: brands 
+.15:58:34.427 [restartedMain] [user="" token=""] INFO  o.h.t.s.e.i.InformationExtractorJdbcDatabaseMetaDataImpl - HHH000262: Table not found: brands 
+.15:58:34.948 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.15:58:35.084 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.15:58:35.341 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.15:58:35.341 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.15:58:35.400 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$614c6b73 : configure 
+.15:58:35.400 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.15:58:35.454 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@522850e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@68b5ced, org.springframework.security.web.header.HeaderWriterFilter@4876ad5a, org.springframework.security.web.csrf.CsrfFilter@73c49dae, org.springframework.security.web.authentication.logout.LogoutFilter@7c24a456, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@152fccb1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e03eba0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7cd9a9df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@138c763, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14ac5fb2, org.springframework.security.web.session.SessionManagementFilter@51759280, org.springframework.security.web.access.ExceptionTranslationFilter@53453dae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2788758] 
+.15:58:35.494 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e9f9040: startup date [Fri Jun 02 15:58:33 PDT 2017]; root of context hierarchy 
+.15:58:35.516 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.15:58:35.516 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.15:58:35.516 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.15:58:35.517 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.15:58:35.518 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.15:58:35.518 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.15:58:35.518 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.15:58:35.518 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.15:58:35.519 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.15:58:35.520 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.15:58:35.521 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.15:58:35.555 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:58:35.555 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:58:35.580 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:58:35.749 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.15:58:35.793 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.15:58:35.801 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.15:58:35.802 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.15:58:35.803 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.15:58:35.807 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.15:58:35.809 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 2.438 seconds (JVM running for 8748.896) 
+.15:59:58.544 [Thread-18] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e9f9040: startup date [Fri Jun 02 15:58:33 PDT 2017]; root of context hierarchy 
+.15:59:58.546 [Thread-18] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.15:59:58.549 [Thread-18] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.15:59:58.826 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6240 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.15:59:58.827 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.15:59:58.829 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ade7d02: startup date [Fri Jun 02 15:59:58 PDT 2017]; root of context hierarchy 
+.15:59:59.441 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.15:59:59.442 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.15:59:59.443 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.15:59:59.492 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.15:59:59.494 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.15:59:59.494 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 665 ms 
+.15:59:59.565 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.15:59:59.566 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.15:59:59.566 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.15:59:59.566 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.15:59:59.566 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.15:59:59.566 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.15:59:59.703 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.15:59:59.704 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.15:59:59.713 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.15:59:59.752 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.15:59:59.948 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:00:00.077 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.16:00:00.353 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:00:00.354 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:00:00.410 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$614c6b73 : configure 
+.16:00:00.410 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.16:00:00.434 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4db0aa74, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d762f42, org.springframework.security.web.header.HeaderWriterFilter@5dacefb6, org.springframework.security.web.csrf.CsrfFilter@52386fd4, org.springframework.security.web.authentication.logout.LogoutFilter@2d34011e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3197aaba, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74c53874, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36c16c2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c2af41d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@704b5f26, org.springframework.security.web.session.SessionManagementFilter@2c21b3dd, org.springframework.security.web.access.ExceptionTranslationFilter@66fda828, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b94da4e] 
+.16:00:00.484 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ade7d02: startup date [Fri Jun 02 15:59:58 PDT 2017]; root of context hierarchy 
+.16:00:00.507 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.16:00:00.507 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:00:00.507 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.16:00:00.508 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.16:00:00.508 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.16:00:00.508 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.16:00:00.510 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.16:00:00.511 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.16:00:00.513 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.16:00:00.515 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.16:00:00.515 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.16:00:00.547 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:00:00.548 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:00:00.586 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:00:00.772 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.16:00:00.819 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.16:00:00.825 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.16:00:00.825 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.16:00:00.826 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.16:00:00.829 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.16:00:00.832 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 2.045 seconds (JVM running for 8833.919) 
+.16:04:47.135 [Thread-25] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ade7d02: startup date [Fri Jun 02 15:59:58 PDT 2017]; root of context hierarchy 
+.16:04:47.139 [Thread-25] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.16:04:47.139 [Thread-25] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:04:47.388 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6240 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:04:47.392 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:04:47.394 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@584e434a: startup date [Fri Jun 02 16:04:47 PDT 2017]; root of context hierarchy 
+.16:04:47.967 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:04:47.967 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:04:47.967 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:04:48.014 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:04:48.016 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:04:48.016 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 622 ms 
+.16:04:48.085 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:04:48.086 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:04:48.086 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:04:48.086 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:04:48.086 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:04:48.086 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:04:48.245 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:04:48.245 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:04:48.252 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:04:48.292 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:04:48.462 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:04:48.567 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.16:04:48.775 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:04:48.776 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:04:48.820 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$614c6b73 : configure 
+.16:04:48.820 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.16:04:48.849 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@225ee197, org.springframework.security.web.context.SecurityContextPersistenceFilter@685ed2fb, org.springframework.security.web.header.HeaderWriterFilter@1db56289, org.springframework.security.web.csrf.CsrfFilter@7b696ddd, org.springframework.security.web.authentication.logout.LogoutFilter@233f5ad0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9db08b4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4acb29d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78e48b4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3119d3e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f4e256c, org.springframework.security.web.session.SessionManagementFilter@58e95bbe, org.springframework.security.web.access.ExceptionTranslationFilter@97cd87c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1517055d] 
+.16:04:48.889 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@584e434a: startup date [Fri Jun 02 16:04:47 PDT 2017]; root of context hierarchy 
+.16:04:48.910 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.16:04:48.911 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:04:48.911 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.16:04:48.911 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.16:04:48.911 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.16:04:48.911 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.16:04:48.911 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.16:04:48.912 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.16:04:48.912 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.16:04:48.913 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.16:04:48.913 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.16:04:48.950 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:04:48.950 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:04:48.980 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:04:49.125 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.16:04:49.157 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.16:04:49.162 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.16:04:49.162 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.16:04:49.163 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.16:04:49.167 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.16:04:49.168 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 1.844 seconds (JVM running for 9122.255) 
+.16:05:15.767 [Thread-32] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@584e434a: startup date [Fri Jun 02 16:04:47 PDT 2017]; root of context hierarchy 
+.16:05:15.768 [Thread-32] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.16:05:15.768 [Thread-32] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:05:16.051 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6240 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:05:16.051 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:05:16.054 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b45d869: startup date [Fri Jun 02 16:05:16 PDT 2017]; root of context hierarchy 
+.16:05:16.495 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:05:16.496 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:05:16.496 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:05:16.547 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:05:16.549 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:05:16.550 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 496 ms 
+.16:05:16.619 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:05:16.619 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:05:16.620 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:05:16.620 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:05:16.621 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:05:16.621 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:05:16.746 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:05:16.746 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:05:16.756 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:05:16.789 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:05:16.956 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:05:17.052 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.16:05:17.263 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:05:17.263 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:05:17.311 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$614c6b73 : configure 
+.16:05:17.311 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.16:05:17.339 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fecb5cf, org.springframework.security.web.context.SecurityContextPersistenceFilter@29cc5cc7, org.springframework.security.web.header.HeaderWriterFilter@6f6ac4d4, org.springframework.security.web.csrf.CsrfFilter@71a76730, org.springframework.security.web.authentication.logout.LogoutFilter@72e28a0b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a3f5e95, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@753845dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69664757, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@501372cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@213a5ea5, org.springframework.security.web.session.SessionManagementFilter@63182973, org.springframework.security.web.access.ExceptionTranslationFilter@248c9cdd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77ad2ca3] 
+.16:05:17.377 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b45d869: startup date [Fri Jun 02 16:05:16 PDT 2017]; root of context hierarchy 
+.16:05:17.394 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.16:05:17.394 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:05:17.394 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/cat/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.16:05:17.395 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.16:05:17.395 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.16:05:17.395 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.16:05:17.395 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.16:05:17.395 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.hello() 
+.16:05:17.395 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.16:05:17.396 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.16:05:17.396 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.16:05:17.418 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:05:17.418 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:05:17.434 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:05:17.560 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.16:05:17.589 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.16:05:17.595 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.16:05:17.596 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.16:05:17.596 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.16:05:17.600 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.16:05:17.602 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 1.591 seconds (JVM running for 9150.689) 
+.17:11:00.207 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+.17:11:00.208 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7b45d869: startup date [Fri Jun 02 16:05:16 PDT 2017]; root of context hierarchy 
+.17:11:00.209 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.17:11:00.209 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 

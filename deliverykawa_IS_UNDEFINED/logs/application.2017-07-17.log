@@ -1,0 +1,569 @@
+.13:12:54.133 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 8088 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:12:54.136 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:12:54.233 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Mon Jul 17 13:12:54 PDT 2017]; root of context hierarchy 
+.13:12:54.706 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:12:56.666 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:12:56.683 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:12:56.684 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:12:57.066 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:12:57.070 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:12:57.071 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2838 ms 
+.13:12:57.335 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:12:57.336 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:12:57.336 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:12:57.336 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:12:57.337 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:12:57.337 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:12:58.084 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:12:58.100 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:12:58.169 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:12:58.171 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:12:58.172 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:12:58.223 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:12:58.347 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:12:58.803 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:13:00.982 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:13:02.260 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:13:03.277 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:13:03.278 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:13:03.649 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$4b8938fa : configure 
+.13:13:03.651 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.13:13:03.747 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77c6da00, org.springframework.security.web.context.SecurityContextPersistenceFilter@8faee9d, org.springframework.security.web.header.HeaderWriterFilter@612c88d7, org.springframework.security.web.authentication.logout.LogoutFilter@1225220e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9865dbc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5189d51b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23d2d4fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@395b67d6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a764f1d, org.springframework.security.web.session.SessionManagementFilter@70796c7, org.springframework.security.web.access.ExceptionTranslationFilter@388b4445, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7724c6d9] 
+.13:13:03.968 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Mon Jul 17 13:12:54 PDT 2017]; root of context hierarchy 
+.13:13:04.109 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.13:13:04.110 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.13:13:04.111 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:13:04.112 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/add]}" onto public com.kawarides.admin.model.CustomerOrder com.kawarides.admin.controller.api.CustomerOrderController.addcustomerOrder(com.kawarides.admin.model.CustomerOrder) 
+.13:13:04.115 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.13:13:04.115 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.13:13:04.115 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.13:13:04.115 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.13:13:04.120 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.13:13:04.121 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.13:13:04.121 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.13:13:04.121 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.13:13:04.121 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.13:13:04.126 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.13:13:04.126 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.13:13:04.126 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.13:13:04.126 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.13:13:04.126 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.13:13:04.127 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderview/list]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomerOrderViewController.customerOrderList(org.springframework.ui.Model,java.lang.Long) 
+.13:13:04.127 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.13:13:04.127 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.13:13:04.128 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.13:13:04.131 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.13:13:04.132 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.13:13:04.133 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.13:13:04.133 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.13:13:04.133 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.13:13:04.135 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.13:13:04.135 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.13:13:04.135 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.13:13:04.135 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.13:13:04.135 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.13:13:04.139 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.13:13:04.140 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.13:13:04.140 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:13:04.144 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.13:13:04.144 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.13:13:04.149 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.13:13:04.150 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.13:13:04.239 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:13:04.239 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:13:04.317 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:13:04.893 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.13:13:04.959 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.13:13:05.014 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.13:13:05.056 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.13:13:05.128 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.13:13:05.198 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.13:13:05.216 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 11.384 seconds (JVM running for 12.152) 
+.13:16:41.708 [http-nio-8080-exec-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+.13:16:41.708 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+.13:16:41.763 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 55 ms 
+.13:16:53.096 [http-nio-8080-exec-2] [user="" token=""] ERROR o.a.c.c.C.[.[.[/kawadelivery].[jsp] - Servlet.service() for servlet jsp threw exception 
+org.apache.jasper.JasperException: /WEB-INF/views/customerorderview/list.jsp (line: 43, column: 22) Unterminated ${ tag
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:291)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:97)
+	at org.apache.jasper.compiler.Parser.parseELExpression(Parser.java:770)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1466)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1686)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1019)
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1294)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1473)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:145)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:201)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:185)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:467)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+.13:16:53.098 [http-nio-8080-exec-2] [user="" token=""] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/kawadelivery] threw exception [/WEB-INF/views/customerorderview/list.jsp (line: 43, column: 22) Unterminated ${ tag] with root cause 
+org.apache.jasper.JasperException: /WEB-INF/views/customerorderview/list.jsp (line: 43, column: 22) Unterminated ${ tag
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:41)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:291)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:97)
+	at org.apache.jasper.compiler.Parser.parseELExpression(Parser.java:770)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1466)
+	at org.apache.jasper.compiler.Parser.parseBody(Parser.java:1686)
+	at org.apache.jasper.compiler.Parser.parseOptionalBody(Parser.java:1019)
+	at org.apache.jasper.compiler.Parser.parseCustomTag(Parser.java:1294)
+	at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1473)
+	at org.apache.jasper.compiler.Parser.parse(Parser.java:145)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:244)
+	at org.apache.jasper.compiler.ParserController.parse(ParserController.java:105)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:201)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:372)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:349)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:333)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:600)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:116)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:84)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:185)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:728)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:467)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:392)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:311)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:168)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:317)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:64)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+.13:29:00.115 [Thread-7] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Mon Jul 17 13:12:54 PDT 2017]; root of context hierarchy 
+.13:29:00.124 [Thread-7] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.13:29:00.133 [Thread-7] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.13:29:00.617 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 8088 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:29:00.618 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:29:00.620 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a5ceb8: startup date [Mon Jul 17 13:29:00 PDT 2017]; root of context hierarchy 
+.13:29:01.957 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:29:02.015 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:29:02.015 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:29:02.353 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:29:02.438 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:29:02.504 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1884 ms 
+.13:29:02.819 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:29:02.820 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:29:02.820 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:29:02.820 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:29:02.820 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:29:02.821 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:29:03.170 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:29:03.170 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:29:03.202 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:29:03.841 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:29:04.405 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:29:04.790 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:29:05.690 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:29:05.690 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:29:05.739 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$4b8938fa : configure 
+.13:29:05.745 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.13:29:05.779 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5eeef8b5, org.springframework.security.web.context.SecurityContextPersistenceFilter@82b3200, org.springframework.security.web.header.HeaderWriterFilter@2a67ad69, org.springframework.security.web.authentication.logout.LogoutFilter@682cdea7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@124908e1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a601ea5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e72aed5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19694697, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70f1936d, org.springframework.security.web.session.SessionManagementFilter@38c93fb2, org.springframework.security.web.access.ExceptionTranslationFilter@5ccb4282, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a3642d] 
+.13:29:05.860 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a5ceb8: startup date [Mon Jul 17 13:29:00 PDT 2017]; root of context hierarchy 
+.13:29:05.883 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.13:29:05.884 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.13:29:05.884 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:29:05.885 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/add]}" onto public com.kawarides.admin.model.CustomerOrder com.kawarides.admin.controller.api.CustomerOrderController.addcustomerOrder(com.kawarides.admin.model.CustomerOrder) 
+.13:29:05.886 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.13:29:05.886 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.13:29:05.886 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.13:29:05.887 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.13:29:05.890 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.13:29:05.890 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.13:29:05.890 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.13:29:05.890 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.13:29:05.893 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.13:29:05.899 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.13:29:05.899 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.13:29:05.899 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.13:29:05.899 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.13:29:05.899 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.13:29:05.900 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderview/list]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomerOrderViewController.customerOrderList(org.springframework.ui.Model,java.lang.Long) 
+.13:29:05.900 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.13:29:05.900 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.13:29:05.901 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.13:29:05.902 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.13:29:05.902 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.13:29:05.903 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.13:29:05.903 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.13:29:05.903 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.13:29:05.904 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.13:29:05.904 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.13:29:05.905 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.13:29:05.905 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.13:29:05.905 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.13:29:05.906 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.13:29:05.907 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.13:29:05.907 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:29:05.908 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.13:29:05.908 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.13:29:05.909 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.13:29:05.910 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.13:29:05.976 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:29:05.976 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:29:06.008 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:29:06.170 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.13:29:06.204 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.13:29:06.212 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.13:29:06.213 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.13:29:06.214 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.13:29:06.222 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.13:29:06.224 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 5.714 seconds (JVM running for 973.16) 
+.13:29:09.647 [Thread-11] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12a5ceb8: startup date [Mon Jul 17 13:29:00 PDT 2017]; root of context hierarchy 
+.13:29:09.651 [Thread-11] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.13:29:09.655 [Thread-11] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.13:29:10.196 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 8088 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:29:10.197 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:29:10.200 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32d307e4: startup date [Mon Jul 17 13:29:10 PDT 2017]; root of context hierarchy 
+.13:29:10.965 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:29:10.966 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:29:10.966 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:29:11.021 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:29:11.023 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:29:11.023 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 823 ms 
+.13:29:11.108 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:29:11.108 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:29:11.108 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:29:11.108 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:29:11.109 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:29:11.109 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:29:11.288 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:29:11.288 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:29:11.308 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:29:11.391 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:29:12.081 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:29:12.280 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:29:12.693 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:29:12.693 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.13:29:12.736 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$4b8938fa : configure 
+.13:29:12.736 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.13:29:12.769 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3995ee9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3676dbb7, org.springframework.security.web.header.HeaderWriterFilter@54a3fa72, org.springframework.security.web.authentication.logout.LogoutFilter@349dcac9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e48d047, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4dd705a3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38783faa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73c332bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c22659, org.springframework.security.web.session.SessionManagementFilter@54227763, org.springframework.security.web.access.ExceptionTranslationFilter@21d5eab1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6055c5f5] 
+.13:29:12.802 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@32d307e4: startup date [Mon Jul 17 13:29:10 PDT 2017]; root of context hierarchy 
+.13:29:12.825 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.13:29:12.826 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.13:29:12.827 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:29:12.828 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/order/add]}" onto public com.kawarides.admin.model.CustomerOrder com.kawarides.admin.controller.api.CustomerOrderController.addcustomerOrder(com.kawarides.admin.model.CustomerOrder) 
+.13:29:12.828 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.13:29:12.828 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.13:29:12.828 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.13:29:12.829 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.13:29:12.830 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.13:29:12.830 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.13:29:12.830 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.13:29:12.830 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.13:29:12.830 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.13:29:12.831 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.13:29:12.831 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.13:29:12.831 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.13:29:12.831 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.13:29:12.831 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.13:29:12.832 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/orderview/list]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomerOrderViewController.customerOrderList(org.springframework.ui.Model,java.lang.Long) 
+.13:29:12.832 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.13:29:12.832 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.13:29:12.832 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.13:29:12.834 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.13:29:12.834 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.13:29:12.835 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.13:29:12.835 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.13:29:12.836 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.13:29:12.837 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.13:29:12.837 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.13:29:12.838 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.13:29:12.838 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.13:29:12.838 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.13:29:12.838 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.13:29:12.838 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.13:29:12.839 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.13:29:12.839 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.13:29:12.839 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.13:29:12.840 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.13:29:12.841 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.13:29:12.867 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:29:12.867 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:29:12.893 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.13:29:13.046 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.13:29:13.093 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.13:29:13.100 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.13:29:13.100 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.13:29:13.101 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.13:29:13.105 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.13:29:13.108 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 2.978 seconds (JVM running for 980.043) 
+.13:32:14.801 [http-nio-8080-exec-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+.13:32:14.802 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+.13:32:14.808 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms 

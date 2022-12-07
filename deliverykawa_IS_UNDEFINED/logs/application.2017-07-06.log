@@ -1,0 +1,265 @@
+.12:26:35.213 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 7780 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.12:26:35.215 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.12:26:35.361 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b29b17e: startup date [Thu Jul 06 12:26:35 PDT 2017]; root of context hierarchy 
+.12:26:35.540 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.12:26:39.748 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.12:26:39.760 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.12:26:39.760 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.12:26:40.083 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.12:26:40.101 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.12:26:40.101 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4740 ms 
+.12:26:40.416 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.12:26:40.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.12:26:40.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.12:26:40.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.12:26:40.418 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.12:26:40.419 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.12:26:42.055 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.12:26:42.074 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.12:26:42.139 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.12:26:42.140 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.12:26:42.141 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.12:26:42.182 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.12:26:42.457 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.12:26:44.643 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.12:26:47.346 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.12:26:48.193 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.12:26:49.488 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.12:26:49.488 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.12:26:49.831 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$e1214022 : configure 
+.12:26:49.834 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.12:26:49.973 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e06c3e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c0d006a, org.springframework.security.web.header.HeaderWriterFilter@61651e39, org.springframework.security.web.authentication.logout.LogoutFilter@20833ceb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@28efc2d2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5937311b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2776cf12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@92f6199, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c3843c1, org.springframework.security.web.session.SessionManagementFilter@9ba9145, org.springframework.security.web.access.ExceptionTranslationFilter@667df859, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d706701] 
+.12:26:50.164 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b29b17e: startup date [Thu Jul 06 12:26:35 PDT 2017]; root of context hierarchy 
+.12:26:50.255 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.12:26:50.256 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.12:26:50.257 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.12:26:50.258 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.12:26:50.258 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.12:26:50.258 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.12:26:50.258 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.12:26:50.262 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.12:26:50.263 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.12:26:50.263 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.12:26:50.263 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.12:26:50.263 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.12:26:50.264 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.12:26:50.265 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.12:26:50.265 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.12:26:50.265 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.12:26:50.265 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.12:26:50.269 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.12:26:50.270 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardMainController.dashboard(org.springframework.ui.Model) 
+.12:26:50.274 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.12:26:50.274 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.12:26:50.275 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.12:26:50.275 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.12:26:50.275 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.12:26:50.277 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.12:26:50.278 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.12:26:50.278 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.12:26:50.278 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.12:26:50.278 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.12:26:50.281 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[DELETE]}" onto public void com.kawarides.app.controller.api.CartResourcesController.removeItem(java.lang.Long) 
+.12:26:50.281 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[PUT]}" onto public void com.kawarides.app.controller.api.CartResourcesController.editItem(int,java.lang.Long) 
+.12:26:50.281 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{productId}],methods=[POST]}" onto public void com.kawarides.app.controller.api.CartResourcesController.saveItem(java.lang.Integer,java.lang.Long,com.kawarides.admin.model.Customers) 
+.12:26:50.284 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart],methods=[GET]}" onto public com.kawarides.admin.model.Cart com.kawarides.app.controller.api.CartResourcesController.getCart(javax.servlet.http.HttpServletRequest) 
+.12:26:50.286 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.12:26:50.286 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.12:26:50.287 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.12:26:50.287 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.12:26:50.288 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.12:26:50.290 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.12:26:50.290 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.12:26:50.406 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.12:26:50.406 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.12:26:50.486 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.12:26:50.904 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.12:26:50.946 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.12:26:50.974 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.12:26:51.013 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.12:26:51.062 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.12:26:51.137 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.12:26:51.151 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 16.579 seconds (JVM running for 18.439) 
+.12:54:41.762 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 7192 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.12:54:41.764 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.12:54:41.820 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Thu Jul 06 12:54:41 PDT 2017]; root of context hierarchy 
+.12:54:42.220 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.12:54:45.076 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.12:54:45.097 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.12:54:45.099 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.12:54:45.643 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.12:54:45.651 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.12:54:45.653 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3833 ms 
+.12:54:46.212 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.12:54:46.213 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.12:54:46.213 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.12:54:46.214 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.12:54:46.215 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.12:54:46.215 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.12:54:47.391 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.12:54:47.431 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.12:54:47.574 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.12:54:47.577 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.12:54:47.580 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.12:54:47.677 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.12:54:47.965 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.12:54:48.771 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.12:54:49.577 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.12:54:50.046 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.12:54:51.438 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.12:54:51.439 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.12:54:51.729 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$58c50a76 : configure 
+.12:54:51.742 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.12:54:52.023 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44c69ea1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f5c1a9c, org.springframework.security.web.header.HeaderWriterFilter@732aac43, org.springframework.security.web.authentication.logout.LogoutFilter@15d51972, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2571c163, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6ba5ea58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d93720e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a167896, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d93648b, org.springframework.security.web.session.SessionManagementFilter@bcf8751, org.springframework.security.web.access.ExceptionTranslationFilter@30fd840, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fc73a77] 
+.12:54:52.281 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Thu Jul 06 12:54:41 PDT 2017]; root of context hierarchy 
+.12:54:52.419 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.12:54:52.422 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.12:54:52.423 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.12:54:52.424 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.12:54:52.435 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.12:54:52.443 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.12:54:52.444 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.12:54:52.465 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.12:54:52.465 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.12:54:52.465 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.12:54:52.468 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.12:54:52.469 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.12:54:52.473 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.12:54:52.473 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.12:54:52.473 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.12:54:52.473 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.12:54:52.473 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.12:54:52.474 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.12:54:52.474 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardMainController.dashboard(org.springframework.ui.Model) 
+.12:54:52.478 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.12:54:52.478 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.12:54:52.479 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.12:54:52.495 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.12:54:52.496 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.12:54:52.498 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.12:54:52.499 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.12:54:52.499 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.12:54:52.499 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.12:54:52.499 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.12:54:52.502 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[DELETE]}" onto public void com.kawarides.app.controller.api.CartResourcesController.removeItem(java.lang.Long) 
+.12:54:52.503 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[PUT]}" onto public void com.kawarides.app.controller.api.CartResourcesController.editItem(int,java.lang.Long) 
+.12:54:52.504 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{productId}],methods=[POST]}" onto public void com.kawarides.app.controller.api.CartResourcesController.saveItem(java.lang.Integer,java.lang.Long,com.kawarides.admin.model.Customers) 
+.12:54:52.506 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart],methods=[GET]}" onto public com.kawarides.admin.model.Cart com.kawarides.app.controller.api.CartResourcesController.getCart(javax.servlet.http.HttpServletRequest) 
+.12:54:52.510 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.12:54:52.511 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.12:54:52.511 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.12:54:52.513 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.12:54:52.513 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.12:54:52.515 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.12:54:52.516 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.12:54:52.630 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.12:54:52.630 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.12:54:52.729 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.12:54:53.438 [restartedMain] [user="" token=""] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server 
+.12:54:53.507 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.12:54:53.562 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.12:54:53.579 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.12:54:53.599 [restartedMain] [user="" token=""] ERROR o.a.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler ["http-nio-8080"] 
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+.12:54:53.603 [restartedMain] [user="" token=""] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]] 
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993)
+	... 19 common frames omitted
+.12:54:53.623 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"] 
+.12:54:53.624 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.12:54:53.637 [restartedMain] [user="" token=""] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored. 
+.12:54:53.638 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+.12:54:53.638 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"] 
+.12:54:53.642 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.12:54:53.646 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+ 
+.12:54:53.647 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Thu Jul 06 12:54:41 PDT 2017]; root of context hierarchy 
+.12:54:53.671 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.12:54:53.676 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.12:54:59.367 [http-nio-8080-exec-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+.12:54:59.367 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+.12:54:59.392 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms 
+.15:46:15.365 [http-nio-8080-exec-1] [user="" token=""] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "index2" 
+.15:46:15.367 [http-nio-8080-exec-1] [user="" token=""] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved exception caused by Handler execution: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "index2" 
+.18:04:16.042 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+.18:04:16.044 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b29b17e: startup date [Thu Jul 06 12:26:35 PDT 2017]; root of context hierarchy 
+.18:04:16.062 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.18:04:16.070 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 

@@ -1,0 +1,27 @@
+.18:18:27.636 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 6744 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.18:18:27.639 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.18:18:27.701 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ac33f1b: startup date [Thu Aug 03 18:18:27 PDT 2017]; root of context hierarchy 
+.18:18:28.173 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.18:18:30.525 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.18:18:30.541 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.18:18:30.542 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.18:18:31.017 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.18:18:31.023 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.18:18:31.023 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3323 ms 
+.18:18:31.344 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.18:18:31.344 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.18:18:31.344 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.18:18:31.344 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.18:18:31.346 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.18:18:31.346 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.18:18:32.285 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.18:18:32.300 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.18:18:32.377 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.18:18:32.380 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.18:18:32.381 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.18:18:32.423 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.18:18:32.555 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.18:18:33.091 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.18:18:34.914 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 

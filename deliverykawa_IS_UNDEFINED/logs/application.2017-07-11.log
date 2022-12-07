@@ -1,0 +1,900 @@
+.13:17:51.646 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 4076 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:17:51.664 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:17:52.007 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4b29b17e: startup date [Tue Jul 11 13:17:52 PDT 2017]; root of context hierarchy 
+.13:17:52.624 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:17:56.912 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:17:56.940 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:17:56.941 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:17:57.762 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:17:57.802 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:17:57.803 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5796 ms 
+.13:17:58.161 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:17:58.162 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:17:58.162 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:17:58.162 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:17:58.163 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:17:58.164 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:17:59.879 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:17:59.934 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:18:00.202 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:18:00.203 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:18:00.205 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:18:00.333 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:18:00.637 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:18:01.790 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:18:04.921 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:18:05.729 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:18:06.414 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerOrderServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CustomerOrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kawarides.admin.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+.13:18:06.417 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.13:18:06.423 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.13:18:06.447 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.13:18:06.688 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in com.kawarides.admin.service.impl.CustomerOrderServiceImpl required a bean of type 'com.kawarides.admin.service.CartService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.kawarides.admin.service.CartService' in your configuration.
+ 
+.13:20:22.431 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 8092 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:20:22.434 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:20:22.505 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2fc34d5: startup date [Tue Jul 11 13:20:22 PDT 2017]; root of context hierarchy 
+.13:20:22.844 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:20:25.397 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:20:25.416 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:20:25.417 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:20:25.744 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:20:25.751 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:20:25.751 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3246 ms 
+.13:20:26.082 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:20:26.083 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:20:26.083 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:20:26.083 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:20:26.084 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:20:26.084 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:20:26.950 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:20:26.969 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:20:27.042 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:20:27.044 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:20:27.046 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:20:27.099 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:20:27.255 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:20:27.858 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:20:29.564 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:20:30.085 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:20:31.182 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerOrderServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CustomerOrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kawarides.admin.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+.13:20:31.184 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.13:20:31.190 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.13:20:31.203 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.13:20:31.332 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in com.kawarides.admin.service.impl.CustomerOrderServiceImpl required a bean of type 'com.kawarides.admin.service.CartService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.kawarides.admin.service.CartService' in your configuration.
+ 
+.13:21:11.791 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 7132 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.13:21:11.794 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.13:21:11.877 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Tue Jul 11 13:21:11 PDT 2017]; root of context hierarchy 
+.13:21:12.304 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.13:21:14.791 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.13:21:14.802 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.13:21:14.803 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.13:21:15.071 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.13:21:15.075 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.13:21:15.076 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3199 ms 
+.13:21:15.398 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.13:21:15.399 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.13:21:15.399 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.13:21:15.400 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.13:21:15.401 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.13:21:15.401 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.13:21:16.271 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.13:21:16.287 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.13:21:16.368 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.13:21:16.370 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.13:21:16.377 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.13:21:16.426 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.13:21:16.555 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.13:21:17.130 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.13:21:18.182 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.13:21:18.715 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.13:21:19.606 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerOrderServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CustomerOrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kawarides.admin.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+.13:21:19.608 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.13:21:19.614 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.13:21:19.626 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.13:21:19.754 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in com.kawarides.admin.service.impl.CustomerOrderServiceImpl required a bean of type 'com.kawarides.admin.service.CartService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.kawarides.admin.service.CartService' in your configuration.
+ 
+.15:46:51.435 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9512 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.15:46:51.460 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.15:46:51.511 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@19fe9f64: startup date [Tue Jul 11 15:46:51 PDT 2017]; root of context hierarchy 
+.15:46:51.758 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.15:46:55.000 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.15:46:55.024 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.15:46:55.025 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.15:46:55.658 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.15:46:55.674 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.15:46:55.674 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4163 ms 
+.15:46:55.967 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.15:46:55.968 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.15:46:55.968 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.15:46:55.969 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.15:46:55.970 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.15:46:55.970 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.15:46:57.643 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.15:46:57.717 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.15:46:58.031 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.15:46:58.032 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.15:46:58.034 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.15:46:58.215 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.15:46:58.511 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.15:46:59.518 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.15:47:00.472 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.15:47:01.301 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.15:47:02.143 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customerOrderServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CustomerOrderServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.kawarides.admin.service.CartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+.15:47:02.145 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.15:47:02.152 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.15:47:02.186 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.15:47:02.377 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in com.kawarides.admin.service.impl.CustomerOrderServiceImpl required a bean of type 'com.kawarides.admin.service.CartService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.kawarides.admin.service.CartService' in your configuration.
+ 
+.15:48:04.775 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.15:48:04.778 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.15:48:04.834 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15d26ac8: startup date [Tue Jul 11 15:48:04 PDT 2017]; root of context hierarchy 
+.15:48:05.162 [background-preinit] [user="" token=""] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+.15:48:07.336 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.15:48:07.351 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.15:48:07.352 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.15:48:07.614 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.15:48:07.618 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.15:48:07.618 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2784 ms 
+.15:48:07.871 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.15:48:07.871 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.15:48:07.872 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.15:48:07.872 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.15:48:07.873 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.15:48:07.873 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.15:48:08.545 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.15:48:08.557 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.15:48:08.623 [restartedMain] [user="" token=""] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final} 
+.15:48:08.624 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found 
+.15:48:08.626 [restartedMain] [user="" token=""] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist 
+.15:48:08.668 [restartedMain] [user="" token=""] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+.15:48:08.803 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.15:48:09.322 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.15:48:10.195 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.15:48:10.635 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.15:48:11.697 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.15:48:11.697 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.15:48:11.971 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$95f6b5eb : configure 
+.15:48:11.972 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.15:48:12.091 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29e508a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3373e0da, org.springframework.security.web.header.HeaderWriterFilter@4082e718, org.springframework.security.web.authentication.logout.LogoutFilter@6b8d30b0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d3cbfb1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@268f8633, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42d0ef5a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@104b8e1b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f635d71, org.springframework.security.web.session.SessionManagementFilter@36441b31, org.springframework.security.web.access.ExceptionTranslationFilter@1ceb2b88, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38f0a6bf] 
+.15:48:12.329 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15d26ac8: startup date [Tue Jul 11 15:48:04 PDT 2017]; root of context hierarchy 
+.15:48:12.437 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.15:48:12.438 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.15:48:12.438 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.15:48:12.439 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.15:48:12.439 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.15:48:12.440 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.15:48:12.440 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.15:48:12.443 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.15:48:12.444 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.15:48:12.444 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.15:48:12.444 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.15:48:12.444 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.15:48:12.446 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.15:48:12.446 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.15:48:12.446 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.15:48:12.447 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.15:48:12.447 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.15:48:12.447 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.15:48:12.448 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.15:48:12.448 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.15:48:12.449 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardMainController.dashboard(org.springframework.ui.Model) 
+.15:48:12.450 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.15:48:12.451 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.15:48:12.451 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.15:48:12.451 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.15:48:12.451 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.15:48:12.453 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.15:48:12.454 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.15:48:12.454 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.15:48:12.454 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.15:48:12.454 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.15:48:12.457 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[DELETE]}" onto public void com.kawarides.app.controller.api.CartResourcesController.removeItem(java.lang.Long) 
+.15:48:12.458 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[PUT]}" onto public void com.kawarides.app.controller.api.CartResourcesController.editItem(int,java.lang.Long) 
+.15:48:12.458 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart],methods=[GET]}" onto public com.kawarides.admin.model.Cart com.kawarides.app.controller.api.CartResourcesController.getCart(javax.servlet.http.HttpServletRequest) 
+.15:48:12.458 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{productId}],methods=[POST]}" onto public void com.kawarides.app.controller.api.CartResourcesController.saveItem(java.lang.Integer,java.lang.Long,com.kawarides.admin.model.Customers) 
+.15:48:12.459 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.15:48:12.460 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.15:48:12.460 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.15:48:12.463 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.15:48:12.463 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.15:48:12.464 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.15:48:12.465 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.15:48:12.541 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:48:12.542 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:48:12.605 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.15:48:13.048 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.15:48:13.113 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.15:48:13.151 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.15:48:13.177 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.15:48:13.249 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.15:48:13.322 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.15:48:13.335 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 8.788 seconds (JVM running for 9.403) 
+.15:49:03.925 [http-nio-8080-exec-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring FrameworkServlet 'dispatcherServlet' 
+.15:49:03.925 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started 
+.15:49:03.965 [http-nio-8080-exec-1] [user="" token=""] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms 
+.16:31:15.697 [Thread-7] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15d26ac8: startup date [Tue Jul 11 15:48:04 PDT 2017]; root of context hierarchy 
+.16:31:15.702 [Thread-7] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.16:31:15.754 [Thread-7] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:31:16.417 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:31:16.419 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:31:16.425 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20276a80: startup date [Tue Jul 11 16:31:16 PDT 2017]; root of context hierarchy 
+.16:31:17.280 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:31:17.281 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:31:17.281 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:31:17.359 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:31:17.370 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+.16:31:17.370 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 945 ms 
+.16:31:17.455 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:31:17.456 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:31:17.456 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:31:17.456 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:31:17.456 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:31:17.456 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:31:17.480 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'inMemoryDatabaseShutdownExecutor' defined in class path resource [org/springframework/boot/devtools/autoconfigure/DevToolsDataSourceAutoConfiguration.class]: Unsatisfied dependency expressed through method 'inMemoryDatabaseShutdownExecutor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active). 
+.16:31:17.488 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.16:31:17.495 [restartedMain] [user="" token=""] WARN  o.s.boot.SpringApplication - Error handling failed (Error creating bean with name 'delegatingApplicationListener' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'metaDataSourceAdvisor': Cannot resolve reference to bean 'methodSecurityMetadataSource' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available) 
+.16:31:17.499 [restartedMain] [user="" token=""] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+ 
+.16:31:58.132 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:31:58.132 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:31:58.159 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5c8faae9: startup date [Tue Jul 11 16:31:58 PDT 2017]; root of context hierarchy 
+.16:31:58.865 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:31:58.867 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:31:58.867 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:31:58.948 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:31:58.949 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:31:58.949 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 790 ms 
+.16:31:59.044 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:31:59.045 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:31:59.045 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:31:59.045 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:31:59.046 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:31:59.046 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:31:59.230 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:31:59.230 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:31:59.248 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:31:59.373 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:32:01.707 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:32:01.860 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property categories found for type Categories! 
+.16:32:01.860 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:32:01.862 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.16:32:01.874 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.16:32:01.884 [restartedMain] [user="" token=""] ERROR o.s.boot.SpringApplication - Application startup failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property categories found for type Categories!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property categories found for type Categories!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property categories found for type Categories!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 38 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property categories found for type Categories!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:77)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:329)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:309)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:272)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:243)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:76)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:247)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.buildTree(PartTree.java:398)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:378)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:89)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:64)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:214)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:77)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:436)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:221)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 49 common frames omitted
+.16:34:21.142 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:34:21.142 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:34:21.163 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f642a48: startup date [Tue Jul 11 16:34:21 PDT 2017]; root of context hierarchy 
+.16:34:22.233 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:34:22.240 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:34:22.241 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:34:22.324 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:34:22.326 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:34:22.326 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1163 ms 
+.16:34:22.416 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:34:22.416 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:34:22.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:34:22.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:34:22.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:34:22.417 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:34:22.558 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:34:22.558 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:34:22.576 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:34:22.679 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:34:23.962 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:34:24.073 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstName found for type Categories! 
+.16:34:24.073 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:34:24.075 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.16:34:24.083 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.16:34:24.085 [restartedMain] [user="" token=""] ERROR o.s.boot.SpringApplication - Application startup failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstName found for type Categories!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstName found for type Categories!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstName found for type Categories!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 38 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property firstName found for type Categories!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:77)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:329)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:309)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:272)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:243)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:76)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:247)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.buildTree(PartTree.java:398)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:378)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:89)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:64)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:214)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:77)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:436)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:221)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 49 common frames omitted
+.16:34:54.727 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:34:54.727 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:34:54.729 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a1a14fb: startup date [Tue Jul 11 16:34:54 PDT 2017]; root of context hierarchy 
+.16:34:55.348 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:34:55.349 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:34:55.349 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:34:55.401 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:34:55.404 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:34:55.404 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 675 ms 
+.16:34:55.475 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:34:55.476 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:34:55.476 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:34:55.476 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:34:55.476 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:34:55.476 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:34:55.638 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:34:55.639 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:34:55.659 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:34:55.779 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:34:57.095 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:34:57.251 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.16:34:57.813 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:34:57.813 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:34:57.910 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$95f6b5eb : configure 
+.16:34:57.910 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.16:34:57.980 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b55c022, org.springframework.security.web.context.SecurityContextPersistenceFilter@c01ea54, org.springframework.security.web.header.HeaderWriterFilter@25a04448, org.springframework.security.web.authentication.logout.LogoutFilter@4b6387db, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@674287d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@79194ab0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d58744f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16a3851d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e7b1352, org.springframework.security.web.session.SessionManagementFilter@7be919e0, org.springframework.security.web.access.ExceptionTranslationFilter@29fefad4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76a679bb] 
+.16:34:58.054 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a1a14fb: startup date [Tue Jul 11 16:34:54 PDT 2017]; root of context hierarchy 
+.16:34:58.082 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.16:34:58.083 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.16:34:58.083 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:34:58.083 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.16:34:58.084 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.16:34:58.084 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.16:34:58.084 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.16:34:58.086 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.16:34:58.087 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.16:34:58.087 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.16:34:58.087 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.16:34:58.087 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.16:34:58.088 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.16:34:58.089 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.16:34:58.089 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.16:34:58.089 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.16:34:58.089 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.16:34:58.089 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.16:34:58.090 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.16:34:58.091 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.16:34:58.091 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardMainController.dashboard(org.springframework.ui.Model) 
+.16:34:58.092 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.16:34:58.093 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.16:34:58.093 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.16:34:58.093 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.16:34:58.093 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.16:34:58.094 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.16:34:58.094 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.16:34:58.094 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.16:34:58.095 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.16:34:58.095 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.16:34:58.095 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[DELETE]}" onto public void com.kawarides.app.controller.api.CartResourcesController.removeItem(java.lang.Long) 
+.16:34:58.095 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[PUT]}" onto public void com.kawarides.app.controller.api.CartResourcesController.editItem(int,java.lang.Long) 
+.16:34:58.096 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart],methods=[GET]}" onto public com.kawarides.admin.model.Cart com.kawarides.app.controller.api.CartResourcesController.getCart(javax.servlet.http.HttpServletRequest) 
+.16:34:58.096 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{productId}],methods=[POST]}" onto public void com.kawarides.app.controller.api.CartResourcesController.saveItem(java.lang.Integer,java.lang.Long,com.kawarides.admin.model.Customers) 
+.16:34:58.096 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.16:34:58.096 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.16:34:58.096 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:34:58.098 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.16:34:58.098 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.16:34:58.099 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.16:34:58.099 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.16:34:58.122 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:34:58.122 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:34:58.149 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:34:58.382 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.16:34:58.424 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.16:34:58.437 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.16:34:58.437 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.16:34:58.438 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.16:34:58.444 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.16:34:58.447 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 3.761 seconds (JVM running for 2814.514) 
+.16:35:31.659 [Thread-11] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4a1a14fb: startup date [Tue Jul 11 16:34:54 PDT 2017]; root of context hierarchy 
+.16:35:31.687 [Thread-11] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.16:35:31.764 [Thread-11] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:35:32.262 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:35:32.262 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:35:32.264 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6829d1cf: startup date [Tue Jul 11 16:35:32 PDT 2017]; root of context hierarchy 
+.16:35:32.918 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:35:32.918 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:35:32.918 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:35:32.972 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:35:32.973 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:35:32.974 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 710 ms 
+.16:35:33.053 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:35:33.053 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:35:33.054 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:35:33.055 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:35:33.055 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:35:33.055 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:35:33.170 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:35:33.170 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:35:33.183 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:35:33.256 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:35:34.003 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:35:34.085 [restartedMain] [user="" token=""] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstname found for type Categories! 
+.16:35:34.085 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.16:35:34.087 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Stopping service Tomcat 
+.16:35:34.094 [restartedMain] [user="" token=""] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled. 
+.16:35:34.099 [restartedMain] [user="" token=""] ERROR o.s.boot.SpringApplication - Application startup failed 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriesController' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\controller\api\CategoriesController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstname found for type Categories!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.kawarides.DeliverykawaApplication.main(DeliverykawaApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl' defined in file [C:\Users\nikil\workspace\deliverykawa\target\classes\com\kawarides\admin\service\impl\CategoryServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstname found for type Categories!
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryRepository': Invocation of init method failed; nested exception is org.springframework.data.mapping.PropertyReferenceException: No property firstname found for type Categories!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 38 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property firstname found for type Categories!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:77)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:329)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:309)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:272)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:243)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:76)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:247)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.buildTree(PartTree.java:398)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:378)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:89)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:64)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:214)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:77)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:436)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:221)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.initAndReturn(RepositoryFactoryBeanSupport.java:277)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:263)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 49 common frames omitted
+.16:35:55.042 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.16:35:55.043 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.16:35:55.045 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36dda9f3: startup date [Tue Jul 11 16:35:55 PDT 2017]; root of context hierarchy 
+.16:35:55.580 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.16:35:55.581 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.16:35:55.581 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.16:35:55.630 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.16:35:55.632 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.16:35:55.632 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 587 ms 
+.16:35:55.756 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.16:35:55.761 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.16:35:55.762 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.16:35:55.762 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.16:35:55.762 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.16:35:55.762 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.16:35:55.959 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.16:35:55.960 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.16:35:55.976 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.16:35:56.056 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.16:35:56.759 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.16:35:56.872 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.16:35:57.424 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:35:57.424 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.16:35:57.468 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$95f6b5eb : configure 
+.16:35:57.468 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.16:35:57.494 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c3fd1f9, org.springframework.security.web.context.SecurityContextPersistenceFilter@81bfeed, org.springframework.security.web.header.HeaderWriterFilter@b8e3da7, org.springframework.security.web.authentication.logout.LogoutFilter@1e9a6351, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b3eb0cf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@11dea932, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ec45193, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@345d3ee9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7865d1fb, org.springframework.security.web.session.SessionManagementFilter@62990e95, org.springframework.security.web.access.ExceptionTranslationFilter@376c32f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1350e3d6] 
+.16:35:57.563 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36dda9f3: startup date [Tue Jul 11 16:35:55 PDT 2017]; root of context hierarchy 
+.16:35:57.578 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.16:35:57.579 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.16:35:57.579 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:35:57.580 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.16:35:57.580 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.16:35:57.580 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.16:35:57.580 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.16:35:57.581 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.16:35:57.581 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.16:35:57.581 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.16:35:57.582 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.16:35:57.582 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.16:35:57.583 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.16:35:57.583 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.16:35:57.583 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.16:35:57.583 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.16:35:57.583 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.16:35:57.584 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.16:35:57.584 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.16:35:57.584 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.16:35:57.585 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardMainController.dashboard(org.springframework.ui.Model) 
+.16:35:57.585 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.16:35:57.586 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.16:35:57.586 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.16:35:57.586 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.16:35:57.586 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.16:35:57.586 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.16:35:57.587 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.16:35:57.587 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.16:35:57.587 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.16:35:57.587 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.16:35:57.588 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[DELETE]}" onto public void com.kawarides.app.controller.api.CartResourcesController.removeItem(java.lang.Long) 
+.16:35:57.588 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[PUT]}" onto public void com.kawarides.app.controller.api.CartResourcesController.editItem(int,java.lang.Long) 
+.16:35:57.588 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart],methods=[GET]}" onto public com.kawarides.admin.model.Cart com.kawarides.app.controller.api.CartResourcesController.getCart(javax.servlet.http.HttpServletRequest) 
+.16:35:57.588 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{productId}],methods=[POST]}" onto public void com.kawarides.app.controller.api.CartResourcesController.saveItem(java.lang.Integer,java.lang.Long,com.kawarides.admin.model.Customers) 
+.16:35:57.589 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.16:35:57.589 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.16:35:57.589 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.16:35:57.589 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.16:35:57.589 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.16:35:57.590 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.16:35:57.590 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.16:35:57.612 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:35:57.613 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:35:57.628 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.16:35:57.746 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.16:35:57.780 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.16:35:57.785 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.16:35:57.786 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.16:35:57.787 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.16:35:57.790 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.16:35:57.791 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 2.803 seconds (JVM running for 2873.859) 
+.17:07:32.580 [Thread-29] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@36dda9f3: startup date [Tue Jul 11 16:35:55 PDT 2017]; root of context hierarchy 
+.17:07:32.584 [Thread-29] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.17:07:32.587 [Thread-29] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+.17:07:32.987 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Starting DeliverykawaApplication on DESKTOP-CM1UI3C with PID 9052 (C:\Users\nikil\workspace\deliverykawa\target\classes started by nikil in C:\Users\nikil\workspace\deliverykawa) 
+.17:07:32.987 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - No active profile set, falling back to default profiles: default 
+.17:07:32.989 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@620f1eac: startup date [Tue Jul 11 17:07:32 PDT 2017]; root of context hierarchy 
+.17:07:33.650 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http) 
+.17:07:33.651 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardService - Starting service Tomcat 
+.17:07:33.651 [restartedMain] [user="" token=""] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14 
+.17:07:33.690 [localhost-startStop-1] [user="" token=""] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time. 
+.17:07:33.693 [localhost-startStop-1] [user="" token=""] INFO  o.a.c.c.C.[.[.[/kawadelivery] - Initializing Spring embedded WebApplicationContext 
+.17:07:33.693 [localhost-startStop-1] [user="" token=""] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 704 ms 
+.17:07:33.772 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*] 
+.17:07:33.772 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*] 
+.17:07:33.772 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*] 
+.17:07:33.772 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*] 
+.17:07:33.772 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean - Mapping filter: 'springSecurityFilterChain' to: [/*] 
+.17:07:33.772 [localhost-startStop-1] [user="" token=""] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/] 
+.17:07:33.955 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+.17:07:33.955 [restartedMain] [user="" token=""] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+.17:07:33.972 [restartedMain] [user="" token=""] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+.17:07:34.061 [restartedMain] [user="" token=""] INFO  o.h.tool.hbm2ddl.SchemaUpdate - HHH000228: Running hbm2ddl schema update 
+.17:07:34.930 [restartedMain] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+.17:07:35.048 [restartedMain] [user="" token=""] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory 
+.17:07:35.571 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.context.ApplicationContext org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getApplicationContext()] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.17:07:35.572 [restartedMain] [user="" token=""] INFO  o.s.aop.framework.CglibAopProxy - Final method [protected final org.springframework.security.config.annotation.web.builders.HttpSecurity org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp() throws java.lang.Exception] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance. 
+.17:07:35.628 [restartedMain] [user="" token=""] INFO  c.k.admin.aspect.LoggerAspect - SecurityConfiguration$$EnhancerBySpringCGLIB$$95f6b5eb : configure 
+.17:07:35.628 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/resources/**'], [] 
+.17:07:35.652 [restartedMain] [user="" token=""] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@609599ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c47141b, org.springframework.security.web.header.HeaderWriterFilter@704e7f9a, org.springframework.security.web.authentication.logout.LogoutFilter@58a1e906, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b237d84, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@24bcadef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ded9c45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1edc92cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ebd0dc6, org.springframework.security.web.session.SessionManagementFilter@48e1db53, org.springframework.security.web.access.ExceptionTranslationFilter@69a91452, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65a37eb6] 
+.17:07:35.739 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@620f1eac: startup date [Tue Jul 11 17:07:32 PDT 2017]; root of context hierarchy 
+.17:07:35.827 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.findOne(java.lang.Long) 
+.17:07:35.829 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.admin.controller.api.CategoriesController.listCategory() 
+.17:07:35.832 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.admin.controller.api.CategoriesController.addCateogory(com.kawarides.admin.model.Categories) 
+.17:07:35.835 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list]}" onto public java.util.List<com.kawarides.admin.model.User> com.kawarides.admin.controller.api.UserController.userList() 
+.17:07:35.835 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list/{userId}]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.findOne(java.lang.Long) 
+.17:07:35.836 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/add]}" onto public com.kawarides.admin.model.User com.kawarides.admin.controller.api.UserController.addUser(com.kawarides.admin.model.User) 
+.17:07:35.836 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.api.UserController.deleteUser(java.lang.Long) 
+.17:07:35.840 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.brandList(org.springframework.ui.Model) 
+.17:07:35.841 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.insertform(com.kawarides.admin.model.Brands,org.springframework.ui.Model) 
+.17:07:35.847 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.updateBrand(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Brands) 
+.17:07:35.847 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/deletebrand/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.deleteBrand(java.lang.Long) 
+.17:07:35.847 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/brandsview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.BrandViewController.saveBrand(com.kawarides.admin.model.Brands) 
+.17:07:35.848 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.insertform(com.kawarides.admin.model.Categories,org.springframework.ui.Model) 
+.17:07:35.849 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.saveCategory(com.kawarides.admin.model.Categories) 
+.17:07:35.849 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/deletecategory/{id}]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.deleteCategory(java.lang.Long) 
+.17:07:35.849 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.categoryList(org.springframework.ui.Model) 
+.17:07:35.849 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/categoryview/updateform/{id}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CategoryViewController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Categories) 
+.17:07:35.864 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.customersList(org.springframework.ui.Model) 
+.17:07:35.865 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/deletecustomer/{customerId}]}" onto public java.lang.String com.kawarides.admin.controller.view.CustomersViewController.deleteCustomer(java.lang.Long) 
+.17:07:35.865 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/default/login],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardController.login(org.springframework.ui.Model,java.lang.String,java.lang.String) 
+.17:07:35.865 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.kawarides.admin.controller.view.DashboardMainController.dashboard(org.springframework.ui.Model) 
+.17:07:35.866 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.17:07:35.866 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/list],methods=[GET]}" onto private java.lang.String com.kawarides.admin.controller.view.ProductController.productList(org.springframework.ui.Model) 
+.17:07:35.866 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/deleteproduct/{productId}]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.deleteProduct(java.lang.Long) 
+.17:07:35.866 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.saveProducts(com.kawarides.admin.model.Products,org.springframework.web.multipart.MultipartFile,org.springframework.web.servlet.mvc.support.RedirectAttributes) 
+.17:07:35.866 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/productview/updateform/{productId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.ProductController.updateCategory(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.Products) 
+.17:07:35.868 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/list],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.userList(org.springframework.ui.Model) 
+.17:07:35.868 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/form],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.insertform(com.kawarides.admin.model.User,org.springframework.ui.Model) 
+.17:07:35.868 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/deleteuser/{userId}]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.deleteUser(java.lang.Long) 
+.17:07:35.868 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/updateform/{userId}],methods=[GET]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.updateUser(java.lang.Long,org.springframework.ui.Model,com.kawarides.admin.model.User) 
+.17:07:35.868 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userview/save],methods=[POST]}" onto public java.lang.String com.kawarides.admin.controller.view.UserViewController.saveUser(com.kawarides.admin.model.User) 
+.17:07:35.869 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[DELETE]}" onto public void com.kawarides.app.controller.api.CartResourcesController.removeItem(java.lang.Long) 
+.17:07:35.869 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{cartItemId}],methods=[PUT]}" onto public void com.kawarides.app.controller.api.CartResourcesController.editItem(int,java.lang.Long) 
+.17:07:35.884 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart],methods=[GET]}" onto public com.kawarides.admin.model.Cart com.kawarides.app.controller.api.CartResourcesController.getCart(javax.servlet.http.HttpServletRequest) 
+.17:07:35.884 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/cart/{productId}],methods=[POST]}" onto public void com.kawarides.app.controller.api.CartResourcesController.saveItem(java.lang.Integer,java.lang.Long,com.kawarides.admin.model.Customers) 
+.17:07:35.884 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list/{catId}]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.findOne(java.lang.Long) 
+.17:07:35.885 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/list]}" onto public java.util.List<com.kawarides.admin.model.Categories> com.kawarides.app.controller.api.CategoriesclientController.listCategory() 
+.17:07:35.885 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/category/add]}" onto public com.kawarides.admin.model.Categories com.kawarides.app.controller.api.CategoriesclientController.addCateogory(com.kawarides.admin.model.Categories) 
+.17:07:35.885 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/form],methods=[GET]}" onto public java.lang.String com.kawarides.app.controller.api.ProductsclientController.insertform(com.kawarides.admin.model.Products,org.springframework.ui.Model) 
+.17:07:35.885 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/api/product/list],methods=[GET]}" onto private java.lang.String com.kawarides.app.controller.api.ProductsclientController.productList(org.springframework.ui.Model) 
+.17:07:35.887 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+.17:07:35.887 [restartedMain] [user="" token=""] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+.17:07:35.917 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.17:07:35.917 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.17:07:35.936 [restartedMain] [user="" token=""] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+.17:07:36.040 [restartedMain] [user="" token=""] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+.17:07:36.062 [restartedMain] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup 
+.17:07:36.067 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+.17:07:36.067 [restartedMain] [user="" token=""] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+.17:07:36.068 [restartedMain] [user="" token=""] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read 
+.17:07:36.071 [restartedMain] [user="" token=""] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http) 
+.17:07:36.074 [restartedMain] [user="" token=""] INFO  c.kawarides.DeliverykawaApplication - Started DeliverykawaApplication in 3.154 seconds (JVM running for 4772.142) 
+.18:21:00.504 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+.18:21:00.508 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@620f1eac: startup date [Tue Jul 11 17:07:32 PDT 2017]; root of context hierarchy 
+.18:21:00.521 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown 
+.18:21:00.522 [RMI TCP Connection(2)-127.0.0.1] [user="" token=""] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
